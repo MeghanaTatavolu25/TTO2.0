@@ -1,0 +1,197 @@
+.headerContainer {
+  padding: 20px;
+  text-align: center;
+}
+
+.headerContainer h1 {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Hahmlet';
+  margin-bottom: 10px;
+}
+
+.headerContainer img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* styles for search bar placeholder */
+.input-field::placeholder {
+  font-size: 1.245vw;
+  color: #9D9D9D;
+}
+
+#sort-select{
+  width: 7.24vw;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: var(--blue-600, #0972D3);
+  border: 2px solid var(--blue-600, #0972D3);
+  outline: var(--blue-600, #0972D3);;
+  border-radius: 2.083vw;
+  background-color: white;
+  font-size: 1.041vw;
+  font-style: normal;
+  text-align: center;
+}
+.options{
+  width: 6.24vw;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: var(--blue-600, #0972D3);
+  border: 2px solid var(--blue-600, #0972D3);
+  outline: var(--blue-600, #0972D3);;
+  border-radius: 10vw;
+  background-color: white;
+  font-size: 1.041vw;
+  font-style: normal;
+  text-align: center;
+}
+
+
+.patent_status{
+  font-size: 1.0417vw;
+  font-weight: 400;
+  line-height: 1.2vw;
+  height: 9.5vw;
+overflow-y: auto;
+}
+.patent_status a{
+text-decoration: none;
+}
+.patent_status::-webkit-scrollbar {
+  width: 0.3vw;
+}
+.patent_status::-webkit-scrollbar-thumb {
+  border-radius: 30px;
+background: linear-gradient(90deg, #282D9B 0%, #5F42B1 66.15%, #7B4CBC 100%);
+}
+.center-name{
+font-size:1.0417vw;
+font-weight: 400;
+padding-top:0.2vw;
+height: 10vw;
+overflow-y: auto;
+}
+
+.center-name a{
+  text-decoration: none;
+}
+.center-name::-webkit-scrollbar {
+  width: 0.3vw;
+}
+.center-name::-webkit-scrollbar-thumb {
+  border-radius: 1.56vw;
+background: linear-gradient(90deg, #282D9B 0%, #5F42B1 66.15%, #7B4CBC 100%);
+}
+
+.custom-datepicker {
+  border-radius: 4px;
+  border: 1px solid #E3E3E3;
+  background: #FFF;
+  box-shadow: 4px 4px 4px 0px rgba(163, 163, 163, 0.25), 0px 4px 4px 0px rgba(194, 194, 194, 0.25);
+  height: 2.7vw;
+  font-size: 14px;
+  width: 16.5vw;
+  outline: none;
+}
+
+.calendar-icon {
+  position: absolute;
+  top: 45%;
+  right: 1.5vw;
+  transform: translateY(-50%);
+  width: 1.3vw;
+  height: 1.4vw;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.react-datepicker {
+  border-radius: 8px;
+  background: radial-gradient(182.83% 152.77% at 0.00% -0.00%, rgba(9, 165, 175, 0.20) 0%, rgba(85, 219, 227, 0.20) 77.08%, rgba(194, 251, 255, 0.20) 100%);
+  box-shadow: 2px 16px 19px 0px rgba(0, 0, 0, 0.09);
+  backdrop-filter: blur(40px);
+}
+
+.react-datepicker__month-container {
+  border-radius: 8px;
+}
+.react-datepicker__header {
+  justify-content: space-between;
+  align-self: stretch;
+  text-align: center;
+}
+.react-datepicker__day-name {
+  display: flex;
+  width: 30px;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.react-datepicker__day {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+}
+
+/* .patent-pagination */
+.patent-pagination {
+  display: flex;
+  justify-content: center;
+  margin-right: 25vw;
+  margin-top: 2vw;
+}
+
+.patent-pagination-box {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 0 1rem;
+}
+
+.patent-pagination-box span {
+  font-weight: bold;
+  padding: 0.2rem 0.4rem;
+}
+
+.patent-pagination-arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.2vw;
+  height: 2.2vw;
+  background: #FFFFFF;
+  border: 1px solid #BEBEBE;
+  border-radius: 4px;
+  color: black;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.7vw;
+  margin: 0 0.2rem;
+}
+
+.patent-pagination-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.2vw;
+  height: 2.2vw;
+  background: #FFFFFF;
+  border: 1px solid #BEBEBE;
+  border-radius: 4px;
+  color: black;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.8vw;
+  margin: 0 0.2rem;
+}
+
+.patent-pagination-button.current {
+  background: linear-gradient(136deg, #21328F 3.00%, #3084BE 64.43%, #7D4ABC 100%);
+  color: white;
+  border: none;
+}

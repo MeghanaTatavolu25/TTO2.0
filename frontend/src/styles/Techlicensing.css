@@ -1,0 +1,10 @@
+ul li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.6em; /* Adjust this value to align the bullet properly */
+    width: 0.5em; /* Adjust this value to increase/decrease the bullet size */
+    height: 0.5em; /* Adjust this value to increase/decrease the bullet size */
+    background: #6D6D6D;
+ /* Adjust this value to change the bullet color */
+  }

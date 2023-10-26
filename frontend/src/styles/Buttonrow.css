@@ -1,0 +1,42 @@
+.button-row {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 2em 0;
+    border: 0;
+    padding: 0;
+    box-sizing: content-box;
+
+  }
+  
+  
+
+  .button-row button {
+    margin: 0;
+    font-size: 1.25em;
+    border-radius: 0;
+    background-color: white   ;
+    color: #515151    ;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+ 
+.button-row button.active {
+    background-color: white    ;
+    color: #515151
+    ;
+    text-decoration:dashed;
+
+  }
+    
+
+  @media (max-width: 768px) {
+    .button-row {
+      flex-direction: column;
+      align-items: center;
+    }
+  }

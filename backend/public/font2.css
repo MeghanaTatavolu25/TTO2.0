@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@font-face {
+	font-family: 'Prompt';
+	src: url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;300;400;500;600;700;800;900&display=swap');
+	src: url("https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;300;400;500;600;700;800;900&display=swap") format("embedded-opentype"), url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;300;400;500;600;700;800;900&display=swap') format("truetype"), url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;300;400;500;600;700;800;900&display=swap') format("woff"), url("icomoon.svg#icomoon") format("svg");
+	font-weight: 400;
+	font-style: normal;
+}
+  :root {
+    font-family: 'Prompt', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 1vw;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    color: #6A6A6A;
+    --whole-font-family: 'Prompt', Arial, Helvetica, sans-serif;
+    --whole-font-style: normal;
+    --whole-font-size: 1vw;
+    --whole-letter-spacing: -0.01em;
+    --whole-font-weight: 400;
+    --whole-letter-spacing: -0.01em;
+    --whole-color: #6A6A6A;
+    --font-color: #f00;
+   }
+  
+  /* For Navigation */
+  section[data-css="sidebar"] {
+    font-family: var(--whole-font-family) !important;
+    font-style: var(--whole-font-style) !important;
+    font-size: var(--whole-font-size) !important;
+    letter-spacing: var(--whole-font-spacing) !important;
+    font-weight: var(--whole-font-weight) !important;
+  }
+  
+  /* For Images in Sidebar */
+  section[data-css="sidebar"] svg {
+    font-family: var(--whole-font-family) !important;
+    font-style: var(--whole-font-style) !important;
+    font-size: var(--whole-font-size) !important;
+    letter-spacing: var(--whole-font-spacing) !important;
+    font-weight: var(--whole-font-weight) !important;
+  }
+  
+  /* For Navigation */
+  section[data-css="sidebar-resources"] {
+    font-family: var(--whole-font-family) !important;
+    font-style: var(--whole-font-style) !important;
+    font-size: var(--whole-font-size) !important;
+    letter-spacing: var(--whole-font-spacing) !important;
+    font-weight: var(--whole-font-weight) !important;
+  }
+  
+  /* For Resources and Navigation Type */
+  [data-css="sidebar"] section a {
+    font-family: var(--whole-font-family) !important;
+    font-style: var(--whole-font-style) !important;
+    font-size: var(--whole-font-size) !important;
+    letter-spacing: var(--whole-font-spacing) !important;
+    font-weight: var(--whole-font-weight) !important;
+  }
+  
+  /* For Navigation */
+  section[data-css="sidebar-resources"] {
+    font-family: var(--whole-font-family) !important;
+    font-style: var(--whole-font-style) !important;
+    font-size: var(--whole-font-size) !important;
+    letter-spacing: var(--whole-font-spacing) !important;
+    font-weight: var(--whole-font-weight) !important;
+  }
+
+  section[data-css="app-content"] {
+    font-family: var(--whole-font-family) !important;
+  }
+
+  /* For List in resources */
+  .eOGlIj{
+    font-family: var(--whole-font-family) !important;
+  }
+
+  /* For Login welcome Header */
+  .gdvKyh{
+    font-family: var(--whole-font-family) !important;
+    letter-spacing: var(--whole-font-spacing) !important;
+    font-size: 28px !important;
+  }
+
+  /* For Login Welcome Message */
+  .kwuISG{
+    font-family: var(--whole-font-family) !important;
+    letter-spacing: var(--whole-font-spacing) !important;
+  }
+
+  /* For Login Text Email and Password */
+  .dRhYcc{
+    font-family: var(--whole-font-family) !important;
+  }
+  
+  /* For recources, username */
+  .hdeNhd{
+    font-family: var(--whole-font-family) !important;
+    font-style: var(--whole-font-style) !important;
+    font-size: var(--whole-font-size) !important;
+    letter-spacing: var(--whole-font-spacing) !important;
+    font-weight: var(--whole-font-weight) !important;
+  }
+  
+  /* For Navigation */
+  .hqNrDF{
+    font-family: var(--whole-font-family) !important;
+    font-style: var(--whole-font-style) !important;
+    font-size: var(--whole-font-size) !important;
+    letter-spacing: var(--whole-font-spacing) !important;
+  }  
+  
+  /* For Navigation, List, User Name */
+  .sZZBF{
+    font-family: var(--whole-font-family) !important;
+    font-style: var(--whole-font-style) !important;
+    font-size: var(--whole-font-size) !important;
+    letter-spacing: var(--whole-font-spacing) !important;
+    font-weight: var(--whole-font-weight) !important;
+  }
+  
+  /* For User Name */
+  .hcRTCv{
+    font-family: var(--whole-font-family) !important;
+    font-style: var(--whole-font-style) !important;
+    font-size: var(--whole-font-size) !important;
+    letter-spacing: var(--whole-font-spacing) !important;
+    font-weight: var(--whole-font-weight) !important;
+  }
+
+  /* For admin/resources text */
+  .WHCAL{
+    font-family: var(--whole-font-family) !important;
+    color: var(--font-color);
+  }
+  
+  /* For this text - "Welcome to Product Lab - Admin" */
+  .hilNtv{
+    font-family: var(--whole-font-family) !important;
+    font-style: var(--whole-font-style) !important;
+    letter-spacing: var(--whole-font-spacing) !important;
+    font-weight: var(--whole-font-weight) !important;    
+  }
+  
+  /* For this text - "Use this website to manage content of Product Lab Website." */
+  .QLQBU{     
+    font-family: var(--whole-font-family) !important;
+    font-style: var(--whole-font-style) !important;
+    letter-spacing: var(--whole-font-spacing) !important;
+    font-weight: var(--whole-font-weight) !important;
+  }
+
+  /* For Adding/Customise Resources, etc */
+  .fwMmwa{
+    font-family: var(--whole-font-family) !important;
+    font-style: var(--whole-font-style) !important;
+    letter-spacing: var(--whole-font-spacing) !important;
+    font-weight: var(--whole-font-weight) !important; 
+  }
+  
+  /* For Adding/Customise Resources, etc description  */
+  .duDtti{
+    font-family: var(--whole-font-family) !important;
+    font-style: var(--whole-font-style) !important;
+    letter-spacing: var(--whole-font-spacing) !important;
+  }
+  
+  /* For Navigation */
+  .sZaIG{
+    font-family: var(--whole-font-family) !important;
+    letter-spacing: var(--whole-font-spacing) !important;
+  }
+
+  .ftgCrW{
+    font-family: var(--whole-font-family) !important;
+  }
+
+
+  /* For Box Sizing to "-webkit-line-clamp" lines */
+  .kTAUKl{
+    font-family: var(--whole-font-family) !important;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  section[data-css = "app-content"] section {
+    font-family: var(--whole-font-family) !important;
+    /* display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis; */
+  }
+
+  /* section[data-css = "app-content"] section td {
+    font-family: var(--whole-font-family) !important;
+  } */
+
+  section[data-css = "app-content"] section a {
+    font-family: var(--whole-font-family) !important;
+  }
+
+  section[data-css="topbar"]{
+    font-family: var(--whole-font-family) !important;
+  }
+
+  section[data-css="default-dashboard"]{
+    font-family: var(--whole-font-family) !important;
+  }
+  
+  /* section[data-css="logged-in"] {
+    font-family: var(--whole-font-family) !important;
+    font-style: var(--whole-font-style) !important;
+    font-size: var(--whole-font-size) !important;
+    letter-spacing: var(--whole-font-spacing) !important;
+    font-weight: var(--whole-font-weight) !important;
+    display: flex;
+  } */

@@ -1,0 +1,29 @@
+
+.parent-selector .redbutton {
+  color: red;
+}
+
+
+
+button {
+    background-color: transparent;
+    color: #084D9C;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: left;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  button.active {
+    color: #5EB606;
+    text-decoration: underline #D3CC0E;
+  }
+  

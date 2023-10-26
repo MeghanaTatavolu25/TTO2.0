@@ -1,0 +1,218 @@
+
+
+@import url('https://fonts.cdnfonts.com/css/prompt');
+
+/* Chat window styles */
+.chat-window {
+  position: fixed;
+  bottom: 4vw;
+  right: 6.5vw;
+  width: 20vw;
+  height: 68vh;
+  background-color: #EAEEF3;
+  box-shadow: 0px 0px 0.552vw rgba(0, 0, 0, 0.3);
+  z-index: 1050;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Prompt';
+}
+
+.user-message .chat-bubble {
+  margin-left: auto;
+}
+
+.bot-message .chat-bubble {
+  margin-right: auto;
+}
+
+.chat-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.552vw;
+  font-weight: bold;
+  color: #4D4D4D;
+  background-color: #FFFFFF;
+  border-top-left-radius: 0.552vw;
+  border-top-right-radius: 0.552vw;
+  flex-shrink: 0;
+  box-shadow: 0px 4px 20px 10px rgba(212, 212, 212, 0.25);
+
+
+}
+
+.chat-header-close {
+  cursor: pointer;
+}
+.chatbot-heading{
+color: #4D4D4D;
+font-size: 1.5vw;
+font-family: Prompt;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -1.28px;
+margin: 2px 0 0;
+}
+
+.online{
+  color: #898989;
+font-size: 1vw;
+font-family: Prompt;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+letter-spacing: -0.8px;
+}
+.chat-messages {
+  padding: 0.552vw;
+  background-color: #EAEEF3;
+  overflow-y: scroll;
+  flex-grow: 1;
+}
+.chat-messages::-webkit-scrollbar {
+  width: 0.5em;
+  background-color: #F5F5F5;
+}
+
+.chat-messages::-webkit-scrollbar-thumb {
+  background-color: #888;
+}
+
+.chat-message {
+  padding: 0.552vw;
+  display: flex;
+}
+
+.user-message .user-bubble {
+  background-color: #A1CCE7;
+  color: #000;
+  padding: 0.6vw 1.3vw;
+  max-width: 90%;
+  font-size:1vw;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.406px;
+  display: inline-flex;
+  padding: 13.547px 27.094px;
+  align-items: flex-start;
+  gap: 13.547px;
+
+
+}
+
+.bot-message .bot-bubble {
+  background-color: #C4E6FB;
+  color: #000;
+  padding: 0.6vw 1.3vw;
+  max-width: 90%;
+  font-size:1vw;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.406px;
+  display: inline-flex;
+  padding: 13.547px 27.094px;
+  align-items: flex-start;
+  gap: 13.547px;
+
+}
+
+.chat-bubble {
+  padding: 0.552vw;
+  border-radius: 1.52vw; 
+  /* Change the border-radius value to a fixed value */
+  max-width: 80%;
+  word-wrap: break-word;
+  overflow-wrap: break-word; /* Add this property to handle long words */
+  word-break: break-all; /* Add this property to break long words */
+  
+
+}
+
+.chat-icon {
+  position: fixed;
+  bottom: 1.1vw;
+  right: 2.2vw;
+  padding: 0.552vw;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  z-index: 1;
+}
+.chaticonimg{
+  width: 5vw;
+  height: 5vw;
+}
+
+.chat-icon-text {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.send-message-button {
+  border: none; /* Remove the border */
+  background-color: transparent; /* Optional: Set the background color to transparent */
+  padding: 0; /* Optional: Remove any padding */
+}
+.send-message-button > svg {
+  color: #C9C9C9;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+/* Chat input styles */
+.chat-input-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1vw;
+  margin: 0 0.82vw 1.5vw;
+  background-color: #fff;
+  border-radius: 222.172px;
+  border: 1.355px solid #E5E6E9;
+  background: #FCFCFC;
+}
+
+
+.chat-input {
+  flex: 1;
+  margin-right: -0.552vw;
+  font-size: 0.88vw;
+  outline: none;
+  border: none;
+}
+.chat-input::placeholder{
+  color: #A8A8A8;
+font-size: 1vw;
+font-family: Inter;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+flex-direction: column;
+flex-shrink: 0;
+}
+.chat-send-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 1.38vw;
+  padding: 0.5vw 1vw;
+  cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  .chaticonimg{
+    width: 17vw;
+    height: 17vw;
+  }
+  .chat-icon {
+    bottom: 15vw;
+    right: 6vw;
+    border-radius: 50%;
+    
+  }
+
+}

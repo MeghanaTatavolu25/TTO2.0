@@ -1,0 +1,207 @@
+.homePage{
+    width:100%;
+    height:100%;
+    background: antiquewhite;
+}
+th.MuiTableCell-root.MuiTableCell-head {
+    background: #f3f6fc;
+    border: solid white 4px;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+}
+.tableRowName svg {
+    color: #3d7dff;
+}
+.homePage .userMenu .Mui-disabled {
+    color: rgba(0, 0, 0, 0.26)!important;
+    box-shadow: none;
+    background-color: rgba(0, 0, 0, 0.12)!important;
+}
+
+.topRightUserInfo {
+    position: absolute;
+    top: 1%;
+    right: 4%;
+    text-align: right;
+}
+
+.homePage .css-1ex1afd-MuiTableCell-root{
+    max-width: 300px;
+}
+
+.homePage .MuiInputBase-root::before {
+    display:none!important;
+}
+.css-1ff8729-MuiInputBase-root-MuiFilledInput-root:after{
+    display:none
+}
+.bubbleLeft {
+    font-size: 18px;
+}
+
+.bubbleRight {
+    font-size: 18px;
+}
+
+.bubbleRight:before {
+    content: "";
+    position: absolute;
+    bottom: -6px;
+    right: 0px;
+    height: 17px;
+    width: 35px;
+    background: inherit;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%);
+    display: block;
+    border-radius: 2px;
+}
+
+.bubbleLeft:before {
+    content: "";
+    position: absolute;
+    bottom: -6px;
+    left: 0px;
+    height: 17px;
+    width: 35px;
+    background: inherit;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%);
+    display: block;
+    border-radius: 2px;
+    transform: scaleX(-1);
+}
+
+.userMenu{
+    min-height: 200px!important;
+    max-height: 80vh;
+    overflow: scroll;
+}
+.langMenu{
+    padding:10px;
+    min-height: 80px!important;
+    overflow: scroll;
+}
+
+@media screen and (min-width:1000px) {
+    .menuIconsDiv{
+        display: flex!important;
+    }
+}
+
+@media screen and (max-width:1000px){
+    #chatspace {
+        width: calc(100% - 80px)!important;
+        height: calc( 100% - 200px)!important;
+        top: 0!important;
+        left: 0!important;
+        border-radius: 0px!important;
+        margin-top: 80px;
+    }
+    
+    .header {
+        width: 100%!important;
+        top: 0!important;
+    }
+    
+    .headerDiv {
+        width: 100%!important;
+        top: 0!important;
+        height: 80px!important;
+        border-radius: 0!important;
+        z-index: 100!important;
+    }
+    
+    .header img {
+        width: 184px!important;
+        top: 0!important;
+        left: 5%!important;
+        position: absolute!important;
+        z-index: 100!important;
+    }
+
+
+    .IconMenu {
+        top: 0px;
+        width: 256px!important;
+        z-index: 101;
+        right: 2%;
+        margin: 16px!important;
+        height: fit-content;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .IconMenuIcons{
+        justify-content: right!important;
+    }
+
+    .messageBar {
+        width: calc(100vw - 20px)!important;
+        left: 0!important;
+        bottom: 0!important;
+        background: white!important;
+        top: unset!important;
+    }
+
+    .recommendations {
+        padding: unset!important;
+        height: unset!important;
+        width: 100%!important;
+        left: 0!important;
+        background: white!important;
+        bottom: 75px!important;
+        padding-top: 15px!important;
+        border-radius: 33px!important;
+        border-bottom-left-radius: 0px!important;
+        border-bottom-right-radius: 0px!important;
+        box-shadow: 0px 0px 8px 3px #0000002b;
+    }
+    .recommendations h3{
+        margin-left: 17px!important;
+    }
+    
+    .recommendations  div {
+        margin-bottom: 32px!important;
+        margin-left: 25px!important;
+        width: fit-content;
+    }
+
+    #popupinner {
+        padding: 5px!important;
+        left: 6%!important;
+        top: 5%!important;
+        padding-top: 58px!important;
+        width: calc(100% - (12% + 10px))!important;
+        height: calc(100% - (10% + 30px + 46px))!important;
+    }
+    
+    .MuiTableContainer-root {
+        height: 100%;
+    }
+
+    .youtubeIframe{
+        height: 300px!important;
+        margin-top: 50%;
+    }
+    .subtlbotinfo{
+        display: none;
+    }
+    .hamburgerIcon{
+        display: block!important;
+    }
+    .menuIconsDiv {
+        position: absolute;
+        top: 51px;
+        right: 0px;
+        background: white;
+        padding: 5px;
+        border-radius: 6px;
+        box-shadow: 0 0px 10px 4px #0000000f;
+    }
+    .overlayMenu {
+        position: relative;
+        top: 97px;
+        left: 0px;
+    }
+}

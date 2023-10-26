@@ -1,0 +1,23 @@
+.myheading {
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  
+  .mydescription {
+    font-size: 1.5rem;
+  }
+  
+
+  .item {
+    flex-direction: column;
+    margin: 0 2rem;
+    font-family: 'Hahmlet';
+  }
+  
+  
+  .item-content {
+    align-items: center;
+    font-family: 'Hahmlet';
+
+  }
+  

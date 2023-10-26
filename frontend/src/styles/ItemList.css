@@ -1,0 +1,33 @@
+.myitemList {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1.6em;
+    
+  }
+  
+  .myitem {
+    position: relative;
+  }
+      
+  .left {
+    position: absolute;
+    top: -20%;
+    left: 90%;
+    z-index: 1;
+    display: none;
+  }
+
+  .right {
+    position: absolute;
+    top: -20%;
+    right: 90%;
+    z-index: 1;
+    display: none;
+  }
+  
+  .myitem:hover .popup {
+    display: block;
+  }
+  
+
+  

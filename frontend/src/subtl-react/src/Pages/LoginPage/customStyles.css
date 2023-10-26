@@ -1,0 +1,51 @@
+.LoginPage .LoginInputs .css-o943dk-MuiFormLabel-root-MuiInputLabel-root.Mui-focused{
+    color:rgba(0, 0, 0, 0.679)!important ;
+}
+.LoginPage .LoginInputs .css-1ff8729-MuiInputBase-root-MuiFilledInput-root:before {
+    display: none;
+}
+.LoginPage .LoginInputs .css-1ff8729-MuiInputBase-root-MuiFilledInput-root:after{
+    display:none
+} 
+.LoginPage .LoginInputs .MuiInputBase-root{
+    padding-left: 45px;
+}
+.LoginPage .LoginInputs .MuiInputLabel-root {
+    padding-left: 45px;
+}
+
+.LoginPage .MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation6.MuiSnackbarContent-root.css-1eqdgzv-MuiPaper-root-MuiSnackbarContent-root{
+    background:#ff0000ba;
+}
+
+.LoginPage .Mui-disabled {
+    color: rgba(0, 0, 0, 0.26)!important;
+    box-shadow: none;
+    background-color: rgba(0, 0, 0, 0.12)!important;
+}
+
+.LoginInputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+.successregister{
+    top: 2%;
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 5px #0000000a;
+    left: 30%;
+}
+@media (max-width: 850px) {
+    .LoginPage .LoginLeft{
+        display:none!important;
+    }
+    .LoginPage .LoginRight{
+        width:100%!important;
+    }
+    .successregister{
+        top: 0%;
+        left: 0%;
+    }
+}
