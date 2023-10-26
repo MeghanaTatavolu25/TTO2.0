@@ -40,6 +40,7 @@ const JobSeeker = () => {
 
         headers: {
           Authorization: `Bearer ${authToken}`,
+          'Content-Type': 'application/json', // Set the content type to "application/json"
         },
         withCredentials: true,
       })

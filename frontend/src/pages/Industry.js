@@ -35,6 +35,7 @@ const Industry = () => {
       // await axios.post('https://ttobackend.iiithcanvas.com/admin/api/resources/Industry/actions/new', newIndustry, {
         headers: {
           Authorization: `Bearer ${authToken}`,
+          'Content-Type': 'application/json', // Set the content type to "application/json"
         },
         withCredentials: true,
       })

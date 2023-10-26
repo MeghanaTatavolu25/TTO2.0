@@ -35,10 +35,12 @@ const Enterpreneur = () => {
       };
       console.log(newEntrepreneur);
      
-      // const response =  await axios.post(' http://localhost:3002/admin/api/resources/Entrepreneur/actions/new', newEntrepreneur, {
-      const response =  await axios.post('https://ttobackend.iiithcanvas.com/admin/api/resources/Entrepreneur/actions/new', newEntrepreneur, {
+      const response =  await axios.post(' http://localhost:3002/admin/api/resources/Entrepreneur/actions/new', newEntrepreneur, {
+      // const response =  await axios.post('https://ttobackend.iiithcanvas.com/admin/api/resources/Entrepreneur/actions/new', newEntrepreneur, {
         headers: {
           Authorization: `Bearer ${authToken}`,
+          'Content-Type': 'application/json', // Set the content type to "application/json"
+
         },
         withCredentials: true,
       })

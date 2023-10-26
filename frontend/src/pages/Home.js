@@ -38,8 +38,8 @@ const Home = () => {
 
     }
     useEffect(() => {
-        // fetch('https://ttobackend.iiithcanvas.com/api/researchlabs')
-        fetch('http://localhost:3002/api/researchlabs')
+        fetch('https://ttobackend.iiithcanvas.com/api/researchlabs')
+        // fetch('http://localhost:3002/api/researchlabs')
             .then(response => response.json())
             .then(data => {
                 // Filter out centers with valid Est_Year values
@@ -79,8 +79,8 @@ const Home = () => {
 
 
     useEffect(() => {
-        // fetch('https://ttobackend.iiithcanvas.com/api/startups')
-        fetch('http://localhost:3002/api/startups')
+        fetch('https://ttobackend.iiithcanvas.com/api/startups')
+        // fetch('http://localhost:3002/api/startups')
             .then(response => response.json())
             .then(data => {
                 // Filter out centers with valid Est_Year values
@@ -122,10 +122,10 @@ const Home = () => {
 
     useEffect(() => {
         Promise.all([
-            // fetch('https://ttopatents.iiithcanvas.com/patents/patents'),
-            // fetch('https://ttobackend.iiithcanvas.com/api/researchlabs'),
-            fetch('http://localhost:3002/api/patents/'),
-            fetch('http://localhost:3002/api/researchlabs'),
+            fetch('https://ttopatents.iiithcanvas.com/patents/patents'),
+            fetch('https://ttobackend.iiithcanvas.com/api/researchlabs'),
+            // fetch('http://localhost:3002/api/patents/'),
+            // fetch('http://localhost:3002/api/researchlabs'),
           ])
             .then(([patentsResponse, researchLabsResponse]) =>
               Promise.all([patentsResponse.json(), researchLabsResponse.json()])
@@ -177,10 +177,10 @@ const Home = () => {
     
     useEffect(() => {
         Promise.all([
-            // fetch('https://ttobackend.iiithcanvas.com/api/productlab'),
-            // fetch('https://ttobackend.iiithcanvas.com/api/researchlabs')
-            fetch('http://localhost:3002/api/productlab'),
-            fetch('http://localhost:3002/api/researchlabs')
+            fetch('https://ttobackend.iiithcanvas.com/api/productlab'),
+            fetch('https://ttobackend.iiithcanvas.com/api/researchlabs')
+            // fetch('http://localhost:3002/api/productlab'),
+            // fetch('http://localhost:3002/api/researchlabs')
           ])
         .then(([productsResponse, researchLabsResponse]) => Promise.all([productsResponse.json(), researchLabsResponse.json()]))
         .then(([productsData, researchLabsData]) => {
